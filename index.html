@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esther Kalu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+    <button id="themeToggle" class="theme-switch">🌙 Dark Mode</button>
+
+    <header>
+        <h1>Welcome to Esther Kalu's Blog Page</h1>
+        <h2>A Personal Space for Sharing Favorites and Hobbies</h2>
+    </header>
+
+    <main>
+        <p>This is my personal space where I write <strong>everything about me</strong>: 
+            my favourite fruits, my favourite food, my <em>hobbies</em> and what have you. 
+            Enjoy yourself!</p>
+
+        <img src="./Esther_Kalu.jpg" alt="Esther Kalu" class="profile-image" 
+             title="Esther Kalu's profile picture">
+
+        <section class="favorites">
+            <h3>My Favorite Fruits</h3>
+            <ul>
+                <li>Apples</li>
+                <li>Bananas</li>
+                <li>Oranges</li>
+                <li>Berries
+                    <ul>
+                        <li>Strawberries</li>
+                        <li>Blueberries</li>
+                        <li>Raspberries</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <p>Learn more about my <a href="#hobbies">hobbies</a>.</p>
+
+        <p>Check out my favorite recipe website: 
+            <a href="https://www.allrecipes.com" target="_blank" rel="noopener noreferrer">AllRecipes</a>
+        </p>
+
+        <section id="hobbies" class="hobbies">
+            <h3>My Hobbies</h3>
+            <p>When I'm not enjoying my favorite fruits, I love to engage in various activities. 
+                Here are my top hobbies:</p>
+            <ol>
+                <li>Reading mystery novels</li>
+                <li>Practicing yoga</li>
+                <li>Gardening</li>
+                <li>Cooking new recipes</li>
+            </ol>
+        </section>
+
+        <section class="comment-section">
+            <h3>Comments</h3>
+            <form id="commentForm">
+                <textarea id="commentInput" rows="4" placeholder="Share your thoughts..."></textarea>
+                <button type="submit">Post Comment</button>
+            </form>
+            <div id="commentsContainer"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thanks for visiting my blog page!</p>
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
